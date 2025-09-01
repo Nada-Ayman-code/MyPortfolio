@@ -1,0 +1,1124 @@
+
+.style {
+    width: 200px;
+    height: 100px;
+    /* position: relative; Position the container to properly hold the animated image */
+
+    /* Apply horizontal mirror reflection to the right */
+    -webkit-box-reflect: right 1300px;
+}
+
+.style img{
+    width: 200px;
+    height:200px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: fall;
+    position: absolute;
+    top: -185px;
+    left:0;
+}
+
+.style img:nth-child(1){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+.style img:nth-child(2){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+.style img:nth-child(3){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+.style img:nth-child(4){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(5){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(6){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(7){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(8){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(9){
+      animation-duration: 40s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(10){
+      animation-duration: 40s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(11){
+      animation-duration: 40s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(12){
+      animation-duration: 40s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(13){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(14){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(15){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(16){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(17){
+      animation-duration: 60s;
+      left: 0px;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 10s;
+}
+
+.style img:nth-child(18){
+      animation-duration: 25s;
+      left: 0px;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(19){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 40deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(20){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(21){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 40deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(22){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(23){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(24){
+      animation-duration: 45s;
+      left: 0px;
+      --rot: 45deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(25){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(26){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(27){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(28){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(29){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(30){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(31){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 20deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(32){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(33){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(34){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 5s;
+}
+
+.style img:nth-child(35){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 5s;
+}
+
+.style img:nth-child(36){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(37){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(38){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(40){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+
+.style img:nth-child(41){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(42){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(43){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+
+.style img:nth-child(44){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(45){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(46){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(47){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(48){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+/* ---------------------------------- */
+
+.style img:nth-child(49){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(50){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 450deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(51){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(52){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(53){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(54){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(55){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 20deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(56){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(57){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(58){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(59){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(60){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+/* ---------------------------------- */
+.style img:nth-child(61){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(62){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(63){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(64){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(65){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+video.style img:nth-child(66){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(67){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(68){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+
+.style img:nth-child(69){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(70){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+/* ---------------------------left-side--------------------------- */
+
+/* .style img{
+  -webkit-box-reflect: below 3px linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));
+     width: 200px;
+    height:200px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: fall2;
+    position: absolute;
+    top: -185px;
+    left: 1700px;
+
+} */
+/* 
+.style .img1{
+    width: 200px;
+    height:200px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: fall2;
+    position: absolute;
+    top: -185px;
+    left: 0px;
+    transform: scaleX(-1); 
+} */
+
+.style .img1:nth-child(1){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+.style .img1:nth-child(2){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+.style .img1:nth-child(3){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+.style .img1:nth-child(4){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(5){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(6){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(7){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(8){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(9){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style .img1:nth-child(10){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(11){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 0s;
+}
+
+.style img:nth-child(12){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 0s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(13){
+      animation-duration: 45s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(14){
+      animation-duration: 45s;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(15){
+      animation-duration: 45s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+.style img:nth-child(16){
+      animation-duration: 45s;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(17){
+      animation-duration: 60s;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 10s;
+}
+
+.style img:nth-child(18){
+      animation-duration: 25s;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(19){
+      animation-duration: 45s;
+      --rot: 40deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(20){
+      animation-duration: 45s;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(21){
+      animation-duration: 45s;
+      --rot: 40deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(22){
+      animation-duration: 45s;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(23){
+      animation-duration: 45s;
+      --rot: 30deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+
+.style img:nth-child(24){
+      animation-duration: 45s;
+      --rot: 45deg;
+      --xaxis: 500px;
+      animation-delay: 4s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(25){
+      animation-duration: 50s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(26){
+      animation-duration: 50s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(27){
+      animation-duration: 50s;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(28){
+      animation-duration: 50s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(29){
+      animation-duration: 50s;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(30){
+      animation-duration: 50s;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(31){
+      animation-duration: 50s;
+      --rot: 20deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(32){
+      animation-duration: 60s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+.style img:nth-child(33){
+      animation-duration: 50s;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+
+
+.style img:nth-child(34){
+      animation-duration: 60s;
+      --rot: 45deg;
+      --xaxis: 800px;
+      animation-delay: 5s;
+}
+
+.style img:nth-child(35){
+      animation-duration: 60s;
+      --rot: 30deg;
+      --xaxis: 800px;
+      animation-delay: 5s;
+}
+
+.style img:nth-child(36){
+      animation-duration: 60s;
+      --rot: 40deg;
+      --xaxis: 800px;
+      animation-delay: 6s;
+}
+/* ---------------------------------- */
+
+.style img:nth-child(37){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(38){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(40){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+
+.style img:nth-child(41){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(42){
+      animation-duration: 50s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(43){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+
+.style img:nth-child(44){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(45){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(46){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(47){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(48){
+      animation-duration: 60s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 900px;
+      animation-delay: 12s;
+}
+
+/* ---------------------------------- */
+
+.style img:nth-child(49){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(50){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 450deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(51){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(52){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(53){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(54){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(55){
+      animation-duration: 40s;
+      --rot: 20deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(56){
+      animation-duration: 40s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(57){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(58){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(59){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(60){
+      animation-duration: 40s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+/* ---------------------------------- */
+.style img:nth-child(61){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 45deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(62){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 35deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(63){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(64){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 40deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(65){
+      animation-duration: 70s;
+      left: 0;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+video.style img:nth-child(66){
+      animation-duration: 70s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(67){
+      animation-duration: 60s;
+      --rot: 30deg;
+      --xaxis: 400px;
+      animation-delay: 12s;
+}
+.style img:nth-child(68){
+      animation-duration: 60s;
+      --rot: 30deg;
+      --xaxis: 1200px;
+      animation-delay: 12s;
+}
+
+.style img:nth-child(69){
+      animation-duration: 60s;
+      --rot: 30deg;
+      --xaxis: 12000px;
+      animation-delay: 12s;
+}
+.style img:nth-child(70){
+      animation-duration: 60s;
+      --rot: 40deg;
+      --xaxis: 12000px;
+      animation-delay: 12s;
+}
+
+
+@keyframes fall2{
+
+   0% {
+      transform: translate(0, 0);
+   }
+   50%{
+      opacity: 1;
+   }
+   100% {
+      transform: translate(var(--xaxis), 500px);
+      rotate: var(--rot);
+      opacity: 0;
+   }
+}
+
+
+@keyframes fall{
+
+   0% {
+      transform: translate(0, 0);
+   }
+   50%{
+      opacity: 1;
+   }
+   100% {
+      transform: translate(var(--xaxis), 500px);
+      rotate: var(--rot);
+      opacity: 0;
+   }
+}
+
