@@ -12,6 +12,7 @@ body{
     overflow: hidden;
     /* Apply horizontal mirror reflection to the right */
     /* -webkit-box-reflect: right; */
+    z-index: -1;
 }
 
 .reflection{
@@ -26,6 +27,7 @@ body{
     /* -webkit-box-reflect: right; */
     transform: scaleX(-1);
     transform-origin: center; /* important! flip around the left edge */
+     z-index: -1;
 }
 
 .style img, .reflection img{
