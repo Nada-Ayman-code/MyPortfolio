@@ -1,28 +1,45 @@
 body{
       margin: 0;
       padding: 0;
-      max-height: 10px;
 }
 
 .style {
-    width: 200px;
-    height: 100px;
-    /* position: relative; Position the container to properly hold the animated image */
-    overflow: hidden; /* prevent child animations from changing scroll height */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left:0; 
+    overflow: hidden;
     /* Apply horizontal mirror reflection to the right */
-    -webkit-box-reflect: right 1300px;
+    /* -webkit-box-reflect: right; */
 }
 
-.style img{
+.reflection{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0; 
+    overflow: hidden;
+    /* Apply horizontal mirror reflection to the right */
+    /* background-color: black; */
+    /* -webkit-box-reflect: right; */
+    transform: scaleX(-1);
+    transform-origin: center; /* important! flip around the left edge */
+}
+
+.style img, .reflection img{
     width: 200px;
     height:200px;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-name: fall;
+    /* -webkit-box-reflect: right 600PX; */
     position: absolute;
     top: -185px;
-    left:0;    
+    left:-150px; 
 }
+
 
 .style img:nth-child(1){
       animation-duration: 10s;
@@ -527,7 +544,7 @@ body{
       --xaxis: 400px;
       animation-delay: 5s;
 }
-video.style img:nth-child(66){
+.style img:nth-child(66){
       animation-duration: 50s;
       left: 0;
       --rot: 30deg;
@@ -1063,7 +1080,7 @@ video.style img:nth-child(66){
       --xaxis: 400px;
       animation-delay: 5s;
 }
-video.style img:nth-child(66){
+.style img:nth-child(66){
       animation-duration: 70s;
       --rot: 30deg;
       --xaxis: 400px;
@@ -1127,4 +1144,64 @@ video.style img:nth-child(66){
       opacity: 0;
    }
 }
+
+/* For large screens (e.g., laptops, large tablets) */
+/* @media (max-width: 1200px) {
+    .style {
+        width: 30vw;
+        height: 18vw;
+        -webkit-box-reflect: right 40vw;
+    }
+} */
+
+@media (max-width: 1200px) {
+    .style img {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+/* For medium screens (e.g., tablets) */
+@media (max-width: 992px) {
+    .style img {
+        width: 10vw;
+        height: 10vw;
+    }
+}
+
+/* For small screens (e.g., phones) */
+@media (max-width: 768px) {
+    .style img {
+        width: 20vw;
+        height: 20vw;
+    }
+       .reflection{
+      display:  none;
+    }
+
+}
+
+/* For extra-small screens (small phones) */
+@media (max-width: 576px) {
+    .style img {
+        width: 20vw;
+        height: 20vw;
+    }
+    .reflection{
+      display:  none; 
+    }
+}
+/* 
+@media (max-width: 500px) {
+    .style {
+        width: 80vw;
+        height: 45vw;
+        -webkit-box-reflect: right 0vw;
+    }
+    .style img {
+        width: 20vw;
+        height: 20vw;
+     
+    }
+} */
 

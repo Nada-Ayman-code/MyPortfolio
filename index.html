@@ -48,8 +48,9 @@
      </div>
 
      <br id="about">
-     <div class="style">
 
+    <div id="wrapper">
+     <div class="style">
            <img src="L1.png" alt="l9">
            <img src="L2.png" alt="l10">
            <img src="L3.png" alt="l12">
@@ -59,7 +60,7 @@
            <img src="L7.png" alt="l10">
            <img src="L8.png " alt="l12">
            <img src="L9.png"  alt="l9">
-           <img src="L10.png"  alt="l10">
+           <img src="L10.png"  alt="l10"> 
            <img src="L11.png"  alt="l12">
            <img src="L12.png"  alt="l5">
 
@@ -128,15 +129,15 @@
            <img src="L11.png"  alt="l12">
            <img src="L12.png"  alt="l5">
 
-           <!-- ------------------------------ -->
-            
-      </div>
+           <!-- ------------------------------ -->  
+    </div>
+    </div>
      
-<hr >
+<hr class="mt-1">
 <br><br>
 
-      <div class="row justify-content-between ms-5 position-relative">
-               <div class="col-12 col-sm-10 col-md-10 col-lg-8 border rounded text-center" style="background-color: rgba(233, 236, 239, 0.4);">
+      <div class="row justify-content-between ms-5 position-relative m-0">
+               <div class="col-11 col-sm-10 col-md-10 col-lg-8 border rounded text-center" style="background-color: rgba(233, 236, 239, 0.4);">
                     <h2 style="color:#f27da6;">About</h2>
                     <p>I’m a junior engineering student at Nile University with a growing passion for technology and software
                     development. Currently, I’m focused on learning full-stack development to build dynamic and user-friendly
@@ -145,7 +146,7 @@
                     and working on projects that challenge me to grow.</p>
                </div>
    
-          <div class="col-12 col-lg-6">
+          <div class="col-10 col-lg-6">
                 <img src="b1.png" alt="b1" class="position-absolute end-0 top-0 opacity-50 z-n1"  style="max-width: 520px; height: auto;">
           </div>
      </div>
@@ -155,9 +156,9 @@
       <hr id="projects">
       <br><br>
 
-       <div class="container mt-5 w-100 border rounded" style="background-color: rgba(233, 236, 239, 0.4);">
+       <div class="row mt-5 border rounded ms-4 me-4" style="background-color: rgba(233, 236, 239, 0.4); z-index: 999999;">
           <h2 style="color:#f27da6;">My Projects</h2>
-          
+          <div class="col">
                <div class="accordion" id="accordion1">
                     <div class="accordion-item">
                            <h2 class="accordion-header">
@@ -197,6 +198,8 @@
                                    </div>
                               </div>
                          </div>
+
+                         </div>
                     </div>
                </div>
      </div>         
@@ -211,12 +214,13 @@
            <h2 style="color:#f27da6;">Skills</h2>
           </div>
         <div class="row justify-content-center g-4">
-          <div class="col-12 col-sm-10 col-md-6 col-lg-4 ms-3 rounded" style="background-color: rgba(233, 236, 239, 0.4);">
+          <div class="col-10 col-sm-10 col-md-6 col-lg-4 ms-3 rounded" style="background-color: rgba(233, 236, 239, 0.4);">
                  <h3 class="text mt-3">Technical Skills</h3>
                     <hr>
                     <ul>
                          <li>C++</li>
                          <li>OOP</li>
+                         <li>Data Structure & Algorithms</li>
                          <li>HTML</li>
                          <li>CSS</li>
                          <li>JS</li>
@@ -225,7 +229,7 @@
                          <li>Excel Basics</li>
                     </ul>
           </div>
-          <div class="col-12 col-sm-10 col-md-6 col-lg-4 ms-3 rounded" style="background-color: rgba(233, 236, 239, 0.4);">
+          <div class="col-10 col-sm-10 col-md-6 col-lg-4 ms-3 rounded" style="background-color: rgba(233, 236, 239, 0.4);">
                <h3 class="text mt-3">Soft Skills</h3>
                      <hr>
                     <ul >
@@ -276,7 +280,7 @@
         </div>
      
 <div class="row mb-4 justify-content-center ">
-      <div class="col-12 col-sm-10 col-md-6 col-lg-4">
+      <div class="col-11 col-sm-10 col-md-6 col-lg-4">
                <form action="https://api.web3forms.com/submit" method="POST" class="bg-white border rounded p-3">
                     <input type="hidden" name="access_key" value="f6785770-d73b-4cb0-8bf0-41516260370e">
                     <div class="form-group ">
@@ -309,7 +313,7 @@
                <a href="mailto:nadaaymanelwatany@gmail.com"><img src="mail-outline.svg" alt="gmail" width="25px"></a>
                <a href="https://wa.me/201091270863" target="_blank"><img src="logo-whatsapp.svg" alt="whatsapp" width="25px"></a>
           </div>
-           <p class="text text-center m-0" style="color: #f06595;">&copy; NadaAyman</p>
+           <p class="text text-center m-0" style="color: #f06595;">&copy; 2025 NadaAyman</p>
      </div>
 
     <script src="js/bootstrap.js"></script>
@@ -317,3 +321,18 @@
     <script src="js/popper.min.js"></script>
 </body>
 </html>
+
+<script>
+     let styleContainer= document.querySelector(".style");
+
+     let duplicate= styleContainer.cloneNode(true);
+
+     // duplicate.classList.remove("style");
+     duplicate.classList.add("reflection")
+
+
+  // 5. Add to the page
+//   styleContainer.parentElement.appendChild(duplicate);
+
+document.getElementById("wrapper").appendChild(duplicate);
+</script>
