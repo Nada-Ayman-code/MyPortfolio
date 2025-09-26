@@ -1186,8 +1186,8 @@ body{
 /* For extra-small screens (small phones) */
 @media (max-width: 576px) {
    .style img {
-        width: 20vw;
-        height: 20vw;
+        width: 25vw;
+        height: 25vw;
     }
     .reflection{
       display:  none; 
